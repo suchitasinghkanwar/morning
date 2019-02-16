@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width,initial-scale=1.0">
+<title>SIGNUP FORM</title>
+<link rel="stylesheet" type="text/css" href="css/style.css">
+</head>
+<body>
+<h1><abbr title="create your account to login into the site">SIGN UP</abbr></h1>
+<div class="signup">
+<form method="post" id="signup" action="">
+<h2>sign up here!</h2>
+<label> FIRST NAME     :</label>
+<input type="text" name="fname" placeholder="Enter First Name" required>
+<br>
+<label> LAST NAME      : </label>
+<input type="text" name="lname" placeholder="Enter Last Name" required>
+<br>
+<label> MOBILE NUMBER  : </label>
+<input type="number" name="pno" placeholder="Enter Your Phone Number" required>
+<br>
+<label> EMAIL          :</label>
+<input type="text" name="email" placeholder="Enter Your Email" pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,3}$" title="please enter an @ in the field" required>
+<br>
+<label> PASSWORD       :</label>
+<input type="password" name="password" placeholder="Enter Password" pattern="(?=.*\d)(?=.*[a-z])(?=.*[A-Z]).{8,}" title="must contain atleast one number and one uppercase and one lowecase letter,and atlest eight or more character!" required>
+<br>
+<label> RE-ENTER PASSWORD: </label>
+<input type="password" name="repassword" placeholder="Re Type Password" pattern="(?=.*\d)(?=.*[a-z])(?=.*[A-Z]).{8,}" title="must contain atleast one number and one uppercase and one lowecase letter,and atlest eight or more character!" required>
+<br>
+<label> SIGNUP          : </label>
+<input type="submit" name="signup" value="SIGN UP">
+<br>
+</form>
+</div>
+<script>
+
+</script>
+</body>
+</html>
